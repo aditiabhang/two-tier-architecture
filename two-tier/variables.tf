@@ -26,7 +26,7 @@ variable "ssh_key" {
   default     = "MySSHKey"
 }
 
-variable "db_name_var" {
+variable "db_name" {
   description = "The database name"
   type        = string
   default     = "terraformdatabase1"
