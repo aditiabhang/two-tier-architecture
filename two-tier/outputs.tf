@@ -12,7 +12,7 @@ output "ec2_ssh_access" {
   value       = module.create_two_tier_aws.ec2_ssh_access
 }
 
-output "db_name_var" {
+output "db_name" {
   description = "Database Name"
   value       = module.create_two_tier_aws.db_name
 }
