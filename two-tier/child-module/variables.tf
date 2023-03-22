@@ -63,7 +63,7 @@ variable "db_allocated_storage" {
   default     = 10
 }
 
-variable "db_name" {
+variable "db_name_var" {
   description = "The database name"
   type        = string
 }
