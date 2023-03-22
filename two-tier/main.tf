@@ -2,6 +2,16 @@
 # Module
 ################################################################################
 
+terraform {
+  cloud {
+    organization = "aditiabhang"
+
+    workspaces {
+      name = "two-tier-architecture"
+    }
+  }
+}
+
 module "create_two_tier_aws" {
   source = "./child-module"
 
