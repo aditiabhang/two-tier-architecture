@@ -24,7 +24,7 @@ module "create_two_tier_aws" {
   ec2_name = var.ec2_name
   ssh_key  = var.ssh_key
 
-  db_name     = var.db_name
+  db_name_var     = var.db_name
   db_username = var.db_username
   db_password = var.db_password
 }
